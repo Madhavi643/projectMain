@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>upload </title> 
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                background: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+              }
+              
+              li {
+                float: left;
+              }
+              
+              li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+             /* li a:hover:not(.active) {
+                background-color: #111;
+              }*/
+              
+              .active {
+                background-color: #04AA6D;
+              }
+              
+            
+              
+             
+          
+        </style>
+
+    </head>
+    <body >
+        <ul>
+            
+            <li style="float:right"><a class="active" href="#home">Home</a></li>
+          </ul>
+       
+        <div class="hero">
+            <label for="input-file" id="drop-area">
+                <h1 style="color: rgb(19, 21, 23);"> Upload Image</h1>
+
+                <div class="my">
+                <input type="file" accept="image/*" id="input-file">
+            </div>
+            
+            </label>
+            
+            
+
+        </div>
+       
+       
+        
+       
+    </body>
+</html>
